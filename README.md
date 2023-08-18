@@ -11,6 +11,6 @@ Key learnings:
 ## Exp2
 Creating a complex table in HTML.
 Key learnings:
-*Table creation
-*Nested Tables
-*Lists and Images inside a table cell.
+* Table creation
+* Nested Tables
+* Lists and Images inside a table cell.
