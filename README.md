@@ -20,3 +20,10 @@ Creating frames to display 2 html files.
 Key learnings:
 - Linking between two pages
 - Scrolling through web pages based on links
+
+## Exp4
+Creating imagemap of map of India
+Key Learnings:
+- Creating imagemap
+- Using different area shapes (rectangle, circle and poly)
+- Linking images to their respective areas
