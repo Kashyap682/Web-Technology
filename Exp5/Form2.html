@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Customer Registration Form</title>
+    </head>
+    <body bgcolor="#f4dbd6">
+        <form>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label for="customer_id">Customer ID:</label>
+                <input type="text" name="customer_id" id="customer_id" /><br><br>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" /><br><br>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="18" max="80" /><br><br>
+                <label for="gender">Gender:</label><br><br>
+                <input type="radio" name="gender" id="gender_male" value="male" checked> Male
+                <input type="radio" name="gender" id="gender_female" value="female"> Female
+                <br><br><label for="account_type">Customer Account type:</label>
+                <select name="account_type" id="account_type"><br><br>
+                <option value="privileged">Privileged</option>
+                <option value="basic" selected="selected">Basic</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="photo">Photo</label>
+                <input type="file" name="photo" id="photo" /><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+                </fieldset>
+            <fieldset>
+                <legend>Security</legend>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" /><br><br>
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password" />
+            </fieldset>
+            <fieldset>
+                <legend>Other Information</legend>
+                <label for="homepage_url">Homepage URL</label>
+                <input type="url" name="homepage_url" id="homepage_url" /><br><br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit" /> <input type="reset" value="Reset" />
+            </form>
+    </body>
+</html>
