@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body bgcolor="#f5e0dc">
+        <form>
+            <h1>Personal Info</h1>
+            <b>First Name:&nbsp;</b><input type="text" id="fname" name="fname"><br><br>
+            <b>Last Name:&nbsp;</b><input type="text" name="lname" id="lname"><br><br>
+            <b>Email ID:&nbsp;</b><input type="text" name="email" id="email"><br><br>
+            <b>Date of Birth:&nbsp;</b><input type="date" id="birthday" name="birthday"><br><br>
+            <label for="gender"><b>Gender:<b></label><br><br>
+            <input type="radio" name="gender" value="Male">Male</label>
+            <input type="radio" name="gender" value="Female">Female</label>
+            <input type="radio" name="gender" value="Other">Other</label><br><br>
+            <b>Address:</b><br><br>
+            <textarea name="address" id="address" cols="30" rows="5" placeholder="Current Address"></textarea>
+            <br><br><hr>
+            <h1>Educational Info</h1>
+            <b>Highest Educational Qualification:&nbsp;</b>
+            <select name="education" id="education">
+                <option selected="selected">none</option>
+                <option>Graduation</option>
+                <option>12th</option>
+                <option>10th</option>
+            </select><br><br>
+            <b>Percentage:&nbsp;</b><input type="text"><br><br>
+            <hr>
+            <h1>Skills</h1>
+            <label for="skills"><b>Prgramming Language:&nbsp;<b></label><br><br>
+            <input type="checkbox" name="skills" value="C">C</label>
+            <input type="checkbox" name="skills" value="C++">C++</label>
+            <input type="checkbox" name="skills" value="Python">Python</label>
+            <input type="checkbox" name="skills" value="Java">Java</label><br><br>
+            <hr>
+            <h4>Upload your resume:&nbsp;</h4>
+            <input type="file" name="resume" accept=".pdf"><br><br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
