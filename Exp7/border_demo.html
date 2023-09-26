@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="border_demo.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .table-container {
+            flex-basis: 50%;
+            margin-bottom: 20px;
+        }
+
+        .dooted{
+            border-style: dotted;
+            border-radius: 24px;
+            border-color: blanchedalmond;
+            border-width: 5px;
+            width: 100px;
+            height: 100px;
+            margin: 3px;
+            padding: 3px;
+        }
+
+        .dashed
+        {
+            border-style: dashed;
+            border-radius: 24px;
+            border-color: blanchedalmond;
+            border-width: 5px;
+            width: 100px;
+            height: 100px;
+            margin: 3px;
+            padding: 3px;
+        }
+
+        .image {
+            border-radius: 50%;
+        }
+    </style>
+    <title>Borders</title>
+</head>
+<body style="background-color: aliceblue;">
+    <img class="image" width="30%" align="right" src="profile.jpg" />
+
+    <div class="container">
+        <div class="table-container">
+            <table>
+                <caption><b>Table 1</b></caption>
+                <tr>
+                    <th class="dooted" style="background-color: aquamarine;">Cell11</th>
+                    <th class="dooted">Col12</th>
+                </tr>
+                <tr class="dooted">
+                    <th class="dooted"><img width="100%" src="image.gif" /></th>
+                    <th class="dooted" style="background-color: beige;">Cell22</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <caption><b>Table 2</b></caption>
+                <tr>
+                    <th class="dashed">Cell11</th>
+                    <th class="dashed" style="background-color: blueviolet;">Col12</th>
+                </tr>
+                <tr>
+                    <th class="dashed" style="background-color: antiquewhite;">Cell21</th>
+                    <th class="dashed">Cell22</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <caption><b>Table 3</b></caption>
+                <tr style="background-color: brown;">
+                    <th class="solid">Cell11</th>
+                    <th class="solid">Col12</th>
+                </tr>
+                <tr>
+                    <th class="solid">Cell21</th>
+                    <th class="solid">Cell22</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <caption><b>Table 4</b></caption>
+                <tr>
+                    <th class="nob">Cell11</th>
+                    <th class="nob">Col12</th>
+                </tr>
+                <tr style="background-color: burlywood;">
+                    <th class="nob">Cell21</th>
+                    <th class="nob">Cell22</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
