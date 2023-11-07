@@ -1,0 +1,22 @@
+.a1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    width: 450px;height: 500px;
+    border: solid black;
+}
+
+button {
+    font-family: sans-serif;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <style>
+            .a1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            div {
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 40px;
+                width: 450px;height: 500px;
+                border: solid black;
+            }
+
+            button {
+                font-family: sans-serif;
+                height: 40px;
+                width: 100px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        </style>
+
+        <script>
+            function buyNow(){
+                window.open("form.html", "_blank");
+            }
+            function cart(){
+                alert("Added to cart.");
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">
+            Best place to buy Comics!!!
+        </h1>
+
+        <a class="a1">
+        <div>
+            <h2>Jujutsu Kaisen Vol 1</h2>
+            <img src="jjk1.jpeg" alt="1" width="50%" height="60%">
+            <br>
+            Jujutsu Kaisen Vol 1 
+            <br><br>    
+            Price : 499
+            <br><br>
+            <button onclick="buyNow()">Order Now</button>
+            <button onclick="cart()">Add to Cart</button>
+        </div>
+        <div>
+            <h2>Tokyo Ghoul Vol 1</h2>
+            <img src="tg1.jpg" alt="2" width="50%" height="60%">
+            <br>
+            Tokyo Ghoul Vol 1
+            <br><br>    
+            Price : 599
+            <br><br>
+            <button onclick="buyNow()">Order Now</button>
+            <button onclick="cart()">Add to Cart</button>
+        </div>
+        <div>
+            <h2>Sakamoto Days Vol 1</h2>
+            <img src="d1.jpg" alt="3" width="50%" height="60%">
+            <br>
+            Sakamoto Days Vol 1
+            <br><br>    
+            Price : 540
+            <br><br>
+            <button onclick="buyNow()">Order Now</button>
+            <button onclick="cart()">Add to Cart</button>
+        </div>
+        <div>
+            <h2>Spider Man: Homecoming</h2>
+            <img src="sdh.jpg" alt="4" width="50%" height="60%">
+            <br>
+            Spider Man: Homecoming 
+            <br><br>    
+            Price : 400
+            <br><br>
+            <button onclick="buyNow()">Order Now</button>
+            <button onclick="cart()">Add to Cart</button>
+        </div>   
+        </a>
+
+        
+    </body>
+</html>
